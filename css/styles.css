@@ -518,11 +518,13 @@ border: 1px solid #8E8F99;
   justify-content: flex-start;
   align-items: baseline;
   
+  
 }  
 
 .footer-log {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -558,7 +560,7 @@ border: 1px solid #8E8F99;
   display: inline-block;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-right: 80px
 }
 
 .footer-social-head {
@@ -567,6 +569,7 @@ border: 1px solid #8E8F99;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  
   margin-bottom: 16px;
 }
 
