@@ -954,4 +954,12 @@ border: 1px solid #8E8F99;
 
 .send-button:hover {
   background-color: #404bbf;
+  border: none;;
+  fill: #ffffff;
+}
+
+.send-button:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }
