@@ -666,16 +666,16 @@ border: 1px solid #8E8F99;
 }
 
 .footer-button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
+  align-items: center;
   color: #fff;
   background-color: #4d5ae5;;
   display: flex;
-  width: 165px;
   min-width: 165px;
   justify-content: center;
   flex-direction: row;
@@ -693,6 +693,10 @@ border: 1px solid #8E8F99;
 
 .footer-button:focus {
   background-color: #404bbf;
+}
+
+.subscribe-icon {
+  margin-left: 16px;
 }
 
 .modal-overlay {
@@ -764,6 +768,15 @@ border: 1px solid #8E8F99;
 }
 .close-modal-button:focus .close-button-icon {
   fill: #ffffff;
+}
+
+.close-modal-button:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.close-modal-button:hover {
+  background-color: #404bbf;
+  border: none;
 }
 
 .close-button-icon {
