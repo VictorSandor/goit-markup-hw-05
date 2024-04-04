@@ -763,18 +763,18 @@ border: 1px solid #8E8F99;
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-modal-button:hover .close-button-icon {
+.close-modal:hover .close-button-icon {
   fill: #ffffff;
 }
-.close-modal-button:focus .close-button-icon {
+.close-modal:focus .close-button-icon {
   fill: #ffffff;
 }
 
-.close-modal-button:focus {
+.close-modal:focus {
   background-color: #404bbf;
   border: none;
 }
-.close-modal-button:hover {
+.close-modal:hover {
   background-color: #404bbf;
   border: none;
 }
@@ -954,12 +954,4 @@ border: 1px solid #8E8F99;
 
 .send-button:hover {
   background-color: #404bbf;
-  border: none;;
-  fill: #ffffff;
-}
-
-.send-button:focus {
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
 }
